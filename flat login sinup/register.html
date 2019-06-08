@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href=" https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+	</head>
+	<body>
+		<div class="container full">
+			<div class="top-bar">
+				<div class="icon">
+					<i class="fas fa-user-edit"></i>
+				</div>
+			</div>
+			<h1>Registration Form</h1>
+			<p>All the information you provide will remain private</p>
+			<form action="#" method="post" enctype="multipart/form-data">
+				<div class="input-group">
+					<div class="input-box">
+						<input type="text" name="name" placeholder="Name" title="Enter your name" required>
+						<i class="fas fa-user"></i>
+					</div>
+					<div class="input-box">
+						<input type="tel" name="mobile" placeholder="Mobile no." title="Enter your mobile no." required>
+						<i class="fas fa-phone"></i>
+					</div>
+				</div>
+				<div class="input-group">
+					<div class="input-box">
+						<input type="email" name="email" placeholder="Email id" title="Enter your email id" required>
+						<i class="fas fa-envelope"></i>
+					</div>
+				</div>
+				<div class="input-group">
+					<div class="input-box">
+						<input type="password" name="password" placeholder="Password" title="Create password" required>
+						<i class="fas fa-lock"></i>
+					</div>
+					<div class="input-box">
+						<input type="password" name="con_password" placeholder="Confirm password" title="Confirm password" required>
+						<i class="fas fa-lock"></i>
+					</div>
+				</div>
+				<div class="button-group">
+					<div class="button-box">
+						<button type="submit"><i class="fas fa-pencil-alt"></i> Register now</button>
+					</div>
+				</div>
+			</form>
+			<p>Already registered ? <a href="index.html"><i class="fas fa-sign-in-alt"></i> Login</a></p>
+		</div>
+	</body>
+</html>
