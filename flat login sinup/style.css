@@ -38,7 +38,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: dodgerblue;
+    background: #3494E6;
     background: -webkit-linear-gradient(135deg, #3494E6, #EC6EAD);
     background: linear-gradient(135deg, #3494E6, #EC6EAD);
     border-radius: 50%;
@@ -51,7 +51,7 @@ body{
 h1{
     font-size: 20px;
     margin-bottom: 10px;
-    bcolor: #747474;
+    color: #747474;
     background: -webkit-linear-gradient(135deg, #3494E6, #EC6EAD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -67,7 +67,7 @@ p{
 }
 a{
     font-weight: 500;
-    color: dodgerblue;
+    color: #3494E6;
     transition: 0.3s;
 }
 a:hover{
@@ -114,9 +114,15 @@ input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus{
-    border-color: dodgerblue;
+    border-color: #3494E6;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.1),
                 0 0 0 4px rgba(0, 127, 255, 0.3);
+}
+input[type="text"]:focus::-webkit-input-placeholder,
+input[type="tel"]:focus::-webkit-input-placeholder,
+input[type="email"]:focus::-webkit-input-placeholder,
+input[type="password"]:focus::-webkit-input-placeholder{
+    color: #3494E6;
 }
 .input-group i{
     height: 34px;
@@ -133,7 +139,7 @@ input[type="password"]:focus{
     font-size: 14px;
 }
 .input-group input:focus + i{
-    color: dodgerblue;
+    color: #3494E6;
 }
 .button-group{
     width: 100%;
@@ -151,7 +157,7 @@ input[type="password"]:focus{
     margin-right: 0;
 }
 button{
-    background: dodgerblue;
+    background: #3494E6;
     background: -webkit-linear-gradient(135deg, #3494E6, #EC6EAD);
     background: linear-gradient(135deg, #3494E6, #EC6EAD);
     border:1px solid rgba(0, 0, 0, 0.2);
